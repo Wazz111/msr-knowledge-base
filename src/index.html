@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSR Knowledge Base</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>MSR Knowledge Base</h1>
+        <p>A reference guide for Mining Software Repositories researchers</p>
+    </header>
+
+    <nav aria-label="Knowledge base sections">
+        <button class="tab active" data-target="data-sources">Data Sources</button>
+        <button class="tab" data-target="collection-methods">Collection Methods</button>
+        <button class="tab" data-target="analysis-methods">Analysis Methods</button>
+        <button class="tab" data-target="publication-venues">Publication Venues</button>
+    </nav>
+
+    <main>
+        <section id="data-sources" class="content-section">
+            <h2>Data Sources</h2>
+            <p>Explore available software repository data sources.</p>
+        </section>
+
+        <section id="collection-methods" class="content-section" hidden>
+            <h2>Collection Methods</h2>
+            <p>Learn about methods used to collect research data.</p>
+        </section>
+
+        <section id="analysis-methods" class="content-section" hidden>
+            <h2>Analysis Methods</h2>
+            <p>Explore techniques for analyzing software repository data.</p>
+        </section>
+
+        <section id="publication-venues" class="content-section" hidden>
+            <h2>Publication Venues</h2>
+            <p>Discover conferences and journals for MSR research.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>COIS 3060H - Software Processes</p>
+    </footer>
+</body>
+</html>
