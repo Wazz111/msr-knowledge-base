@@ -1,0 +1,93 @@
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #145a32;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Navigation tabs */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    padding: 15px;
+    gap: 10px;
+}
+
+.tab {
+    background-color: #e8f0eb;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tab:hover {
+    background-color: #c8e6c9;
+}
+
+.tab.active {
+    background-color: #145a32;
+    color: white;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.content-section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-section[hidden] {
+    display: none;
+}
+
+h2 {
+    color: #145a32;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+/* Mobile-friendly layout */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .tab {
+        width: 100%;
+    }
+
+    main {
+        margin: 15px;
+        padding: 10px;
+    }
+}
